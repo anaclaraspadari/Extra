@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(158, 148, 165);
+    padding: 10px;
+  }
+
+ul{
+    list-style:none;
+}
+  .grid-container > li {
+    background-color: rgba(253, 252, 252, 0.8);
+  }
